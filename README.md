@@ -33,7 +33,7 @@ Follow these steps to set up the Docon application on your system:
     git clone https://github.com/ViruSs51/Docon.git
     ```
 
-    Alternatively, you can download the ZIP file directly from the [GitHub repository]((https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#docon) and extract it.
+    Alternatively, you can download the ZIP file directly from the [GitHub repository]([(https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#docon](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#docon)) and extract it.
 
 4. **Install Python:**
     - If you don't have Python installed, download [it](https://www.python.org/).
