@@ -13,7 +13,7 @@ The only drawback to this security lies in the fact that the password is quite l
 ## New
 
 - Update to the code structure
-- Orders **exit**, **help**, **new**
+- Orders `exit`, `help`, `new`
 - Ability to generate key for hasher
 
 ## Installation
