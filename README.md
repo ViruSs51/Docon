@@ -13,7 +13,7 @@ The only drawback to this security lies in the fact that the password is quite l
 ## New
 
 - Update to the code structure
-- Orders `exit`, `help`, `new`
+- Orders [`exit`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-exit), [`help`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-help), [`new`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-new-hash-key)
 - Ability to generate key for hasher
 
 ## Installation
