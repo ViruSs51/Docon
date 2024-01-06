@@ -21,7 +21,7 @@ class Docon(commands.Command):
     
     async def draw_terminal(self
                    ) -> None:
-        command = input('>>> ').split()
+        command = input('<Docon>: ').split()
         command_length = len(command)
 
         if command:

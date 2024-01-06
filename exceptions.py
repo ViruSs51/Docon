@@ -9,6 +9,7 @@ class Error(Exception):
     def __str__(self
                 ) -> None:
         return self.message
+    
 
 class LoopError(Error):
     '''Loop main exception class'''
