@@ -14,7 +14,7 @@ The only drawback to this security lies in the fact that the password is quite l
 
 ## New
 
-- 
+- Update code structure
 
 ## Installation
 
