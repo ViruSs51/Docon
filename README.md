@@ -1,5 +1,7 @@
 # Docon
 
+- All orders: [`exit`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-exit), [`help`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-help), [`new`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-new-hash-key)
+
 This project allows you to create files containing folders for different individuals - you indicate the information yourself (future updates will include internet search systems).
 
 Docon can be used both through the terminal and through the interface.
@@ -12,9 +14,7 @@ The only drawback to this security lies in the fact that the password is quite l
 
 ## New
 
-- Update to the code structure
-- Orders [`exit`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-exit), [`help`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-help), [`new`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-new-hash-key)
-- Ability to generate key for hasher
+- 
 
 ## Installation
 
@@ -45,9 +45,12 @@ Follow these steps to set up the Docon application on your system:
 5. **Navigate to the Docon Folder:**
     - Change directory to the Docon folder or open a command prompt/terminal in the installed folder.
 
-6. **Install Dependencies and Run the Application:**
     ```bash
     cd Docon
+    ```
+
+6. **Install Dependencies and Run the Application:**
+    ```bash
     pip install -r requirements.txt
     python main.py
     ```
@@ -56,29 +59,15 @@ Follow these steps to set up the Docon application on your system:
 
 ## Docon Usage
 
-### Commands:
+### Commands description:
 - `exit` <--- Close Docon
 - `help` <--- Display all available commands and their usage explanations
-- `new <command-type> [parameters]` <--- Create a new object in Docon
+- `new <object-type> [parameters]` <--- Create a new object in Docon
 
-    **Command Types:**
+    **Object Types:**
     - `hash-key [parameters]` <--- Generate a key for the hasher and save it
-    
-        **Parameters:**
+
+        **Parameters:**    
         - `key-name` <--- The name for the key that can be used to access it in the future.
-
-For detailed information on using the Docon application and its commands, refer to the following explanations:
-
-#### Command: `exit`
-This command closes the Docon application.
-
-#### Command: `help`
-The `help` command displays a list of all available commands along with explanations on how to use them.
-
-#### Command: `new hash-key`
-The `new hash-key` command generates a key for the hasher and saves it for future use.
-
-##### Parameters for `new hash-key`:
-- `key-name`: The name assigned to the generated key, which can be used to access it later.
 
 Feel free to explore and utilize the functionality of Docon using these commands.
