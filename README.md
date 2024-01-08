@@ -60,7 +60,7 @@ Follow these steps to set up the Docon application on your system:
 ## Docon Usage
 
 ### Commands description:
-- <a name="exit">`exit` <--- Close Docon</a>
+- <a name="exit" style="text-decoration: none;">a`exit` <--- Close Docon</a>
 - <a name="help">`help` <--- Display all available commands and their usage explanations</a>
 - <a name="new">`new <object-type> [parameters]` <--- Create a new object in Docon</a>
 
