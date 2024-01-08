@@ -1,6 +1,6 @@
 # Docon
 
-- All orders: [`exit`](#exit), [`help`](#help), [`new`](2#new)
+- All orders: [`exit`](#command-exit), [`help`](#command-help), [`new`](#command-new)
 
 This project allows you to create files containing folders for different individuals - you indicate the information yourself (future updates will include internet search systems).
 
@@ -60,9 +60,9 @@ Follow these steps to set up the Docon application on your system:
 ## Docon Usage
 
 ### Commands description:
-- <a name="exit"></a>`exit` <--- Close Docon
-- <a name="help"></a>`help` <--- Display all available commands and their usage explanations
-- <a name="new"></a>`new <object-type> [parameters]` <--- Create a new object in Docon
+- <a name="command-exit"></a>`exit` <--- Close Docon
+- <a name="command-help"></a>`help` <--- Display all available commands and their usage explanations
+- <a name="command-new"></a>`new <object-type> [parameters]` <--- Create a new object in Docon
 
     **Object Types:**
     - `hash-key [parameters]` <--- Generate a key for the hasher and save it
