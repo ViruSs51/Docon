@@ -1,6 +1,6 @@
 # Docon
 
-- All orders: [`exit`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-exit), [`help`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-help), [`new`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-new-hash-key)
+- All orders: [`exit`](#exit), [`help`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-help), [`new`](https://github.com/ViruSs51/Docon/tree/master?tab=readme-ov-file#command-new-hash-key)
 
 This project allows you to create files containing folders for different individuals - you indicate the information yourself (future updates will include internet search systems).
 
@@ -60,7 +60,7 @@ Follow these steps to set up the Docon application on your system:
 ## Docon Usage
 
 ### Commands description:
-- `exit` <--- Close Docon
+- <a name="exit">`exit` <--- Close Docon</a>
 - `help` <--- Display all available commands and their usage explanations
 - `new <object-type> [parameters]` <--- Create a new object in Docon
 
