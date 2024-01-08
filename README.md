@@ -1,6 +1,6 @@
 # Docon
 
-- All orders: [`exit`](#exit), [`help`](#help), [`new`](#new)
+- All orders: [`exit`](#exit), [`help`](#help), [`new`](##new)
 
 This project allows you to create files containing folders for different individuals - you indicate the information yourself (future updates will include internet search systems).
 
