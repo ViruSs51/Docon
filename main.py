@@ -46,11 +46,10 @@ class Docon(commands.Command, commands.CommandAnswer):
             else:
                 output = await self.command_not_entered_correctly(command_name=command[0])
 
-            print(f'{output}\n')
+            if output: print(f'{output}\n')
         
     async def draw_window(self
-                          ) -> None:
-        pass
+                          ) -> None: ...
 
 if __name__ == '__main__':
     app = Docon()
