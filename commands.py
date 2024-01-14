@@ -23,16 +23,7 @@ class CommandAnswer:
         return f'[{command[0]}] parameters are not correct {command[start_incorrect_index:]}\n\nFor usage information type - help {command[0]}'
 
 class Command(CommandAnswer):
-    
-    async def exit(self,
-                   loop: methods.Loop
-                   ) -> None:
-        '''Closing the program cycle'''
-        await loop.set(
-            key='begin', 
-            value=False
-            )
-    
+
     async def help(self,
                    command: str|None=None
                    ) -> str:
@@ -41,7 +32,8 @@ class Command(CommandAnswer):
                          for c in dir(Command) 
                          if isinstance(getattr(Command, c), FunctionType)
                          ]
-        commands_list.remove('help')
+        for c in ['help']:
+            commands_list.remove(c)
 
         if command:
             if command in commands_list:
@@ -57,6 +49,15 @@ class Command(CommandAnswer):
 
         return f'''\nCommands list:\n{commands_documentation}'''
     
+    async def exit(self,
+                   loop: methods.Loop
+                   ) -> None:
+        '''Closing the program cycle'''
+        await loop.set(
+            key='begin', 
+            value=False
+            )
+    
     async def new(self,
                   command: tuple|list
                   ) -> str:
@@ -70,8 +71,11 @@ class Command(CommandAnswer):
             Parameters:
                 - key-name: The name for the key that can be used to access it in the '''
         hasher = methods.Hasher()
+
+        if len(command) <= 1:
+            return await self.command_not_entered_correctly(command_name=command[0])
         
-        if command[1] == 'hash-key':
+        elif command[1] == 'hash-key':
             try:
                 return await hasher.generate_key(key_name=command[2])
             
