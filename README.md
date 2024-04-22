@@ -29,7 +29,6 @@ Follow these steps to set up the Docon application on your system:
 3. **Run the following commands:**
     ```bash
     cd Desktop
-    git init
     git clone https://github.com/ViruSs51/Docon.git
     ```
 
